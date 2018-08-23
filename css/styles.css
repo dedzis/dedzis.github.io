@@ -1,0 +1,87 @@
+* {
+  box-sizing: border-box;
+}
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.container {
+  margin: 0 auto;
+}
+
+.heading {
+  font-family: "Monteserrat", sans-serif;
+  font-weight: 300;
+  line-height: 45px;
+  margin: 0;
+  position: relative;
+  left: 0;
+  color: black;
+  opacity: 0;
+  font-size: 40px;
+  position: relative;
+  left: -3px;
+}
+
+.subheading {
+  font-family: "Monteserrat", sans-serif;
+  font-weight: 300;
+  margin-top: 10px;
+  color: black;
+  opacity: 0;
+}
+
+.fade-in {
+  opacity: 1;
+  animation-name: fadeInOpacity;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in;
+  animation-duration: 0.5s;
+}
+
+@keyframes fadeInOpacity {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+span {
+  border-bottom: 1px solid #000;
+  padding-bottom: 2px;
+}
+
+span:hover {
+  border-bottom: 1px solid white;
+  padding-bottom: 2px;
+}
+
+.social-icon {
+  margin-right: 15px;
+}
+
+.social-icon__twitter {
+  width: 25px;
+  height: 25px;
+}
+
+.social-icon__github {
+  width: 30px;
+  height: 30px;
+}
+.soc {
+  position: relative;
+  top: 200px;
+  padding-bottom: 50px;
+  padding-top: 50px;
+  border-top: 1px solid black;
+}
