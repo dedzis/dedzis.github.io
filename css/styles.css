@@ -78,10 +78,3 @@ span:hover {
   width: 30px;
   height: 30px;
 }
-.soc {
-  position: relative;
-  top: 200px;
-  padding-bottom: 50px;
-  padding-top: 50px;
-  border-top: 1px solid black;
-}
