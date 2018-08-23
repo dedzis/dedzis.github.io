@@ -14,6 +14,7 @@ html {
 
 .container {
   margin: 0 auto;
+  padding: 0 50px;
 }
 
 .heading {
@@ -33,6 +34,7 @@ html {
 .subheading {
   font-family: "Monteserrat", sans-serif;
   font-weight: 300;
+  line-height: 28px;
   margin-top: 10px;
   color: black;
   opacity: 0;
@@ -77,4 +79,7 @@ span:hover {
 .social-icon__github {
   width: 30px;
   height: 30px;
+}
+
+@media screen and (max-width: 640px) {
 }
