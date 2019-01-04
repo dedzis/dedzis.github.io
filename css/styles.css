@@ -13,29 +13,29 @@ html {
 }
 
 .container {
-  margin: 0 auto;
   padding: 0 50px;
 }
 
 .heading {
   font-family: "Monteserrat", sans-serif;
-  font-weight: 300;
+  font-weight: 400;
   line-height: 45px;
   margin: 0;
   position: relative;
   left: 0;
   color: black;
   opacity: 0;
-  font-size: 40px;
+  font-size: 35px;
   position: relative;
   left: -3px;
 }
 
 .subheading {
   font-family: "Monteserrat", sans-serif;
-  font-weight: 300;
+  font-weight: 500;
   line-height: 28px;
-  margin-top: 10px;
+  font-size: 15px;
+  margin-top: 30px;
   color: black;
   opacity: 0;
 }
@@ -58,7 +58,7 @@ html {
 }
 
 span {
-  border-bottom: 1px solid #000;
+  border-bottom: 1px solid lightgrey;
   padding-bottom: 2px;
 }
 
@@ -72,8 +72,8 @@ span:hover {
 }
 
 .social-icon__twitter {
-  width: 25px;
-  height: 25px;
+  width: 20px;
+  height: 20px;
 }
 
 .social-icon__github {
@@ -82,4 +82,18 @@ span:hover {
 }
 
 @media screen and (max-width: 640px) {
+}
+
+h3 a {
+  color: black;
+  text-decoration: none;
+}
+
+h5 {
+  font-family: "Monteserrat", sans-serif;
+  font-weight: 500;
+  line-height: 45px;
+  margin: 0;
+  margin-top: -10px;
+  font-size: 15px;
 }
