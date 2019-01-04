@@ -11,7 +11,7 @@
 <body>
     <div class="container">
         <h3 class="heading">Kaspars Raitis</h3>
-        <h5>Software Developer with a knack for product and UI/UX design</h5>
+        <h3 class="subheading">Software Developer with a knack for Product and UI/UX design</h3>
         <h5 style="color: lightgrey">____</h5>
         <h3 class="subheading">Currently working on <span><a href="http://eruditera.com">Eruditera</a></span>.<br>
             Formerly a Software Developer at
@@ -28,9 +28,9 @@
 <script>
     (() => {
         const heading = document.querySelector(".heading");
-        const subheading = document.querySelector(".subheading");
+        const subheadings = [...document.querySelectorAll(".subheading")];
         setTimeout(() => heading.classList.add("fade-in"), 0);
-        setTimeout(() => subheading.classList.add("fade-in"), 500);
+        setTimeout(() => subheadings.forEach(subheading => subheading.classList.add("fade-in")), 500);
     })();
 </script>
 

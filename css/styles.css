@@ -30,6 +30,11 @@ html {
   left: -3px;
 }
 
+.heading + .subheading {
+  margin: 0;
+  margin-bottom: 10px;
+}
+
 .subheading {
   font-family: "Monteserrat", sans-serif;
   font-weight: 500;
